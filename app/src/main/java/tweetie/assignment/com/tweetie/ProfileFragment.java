@@ -110,7 +110,7 @@ public class ProfileFragment extends Fragment {
             AccessToken accessToken = new AccessToken(pref.getString("ACCESS_TOKEN", ""), pref.getString("ACCESS_TOKEN_SECRET", ""));
             Twitter twitter = new TwitterFactory(builder.build()).getInstance(accessToken);
             try {
-                twitter4j.Status response = twitter.updateStatus(tweetText +" @learn2crack ");
+                twitter4j.Status response = twitter.updateStatus(tweetText +" @MobileAppClass ");
                 return response.toString();
             } catch (TwitterException e) {
                 // TODO Auto-generated catch block
