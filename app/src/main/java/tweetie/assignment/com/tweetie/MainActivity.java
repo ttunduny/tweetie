@@ -1,14 +1,11 @@
 package tweetie.assignment.com.tweetie;
-import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 
-import tweetie.assignment.com.tweetie.R;
-import tweetie.assignment.com.tweetie.LoginFragment;
-
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
     SharedPreferences pref;
     private static String CONSUMER_KEY = "AUBuOJj1XRsNk2pH93bKmkRrH";
     private static String CONSUMER_SECRET = "4qIQWtheOsWAxMm8k4Mhxk9emN6y2WhrUwZa4JZAGriSvKR9kn";
